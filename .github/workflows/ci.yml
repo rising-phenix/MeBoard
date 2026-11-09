@@ -18,7 +18,6 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
       - name: Verify formatting
         run: ./gradlew ktlintCheck
-        # Add the formatter plugin and task in M0 before enabling this workflow.
       - name: Run unit tests
         run: ./gradlew test
       - name: Build debug APK
