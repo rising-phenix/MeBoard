@@ -1,0 +1,55 @@
+# Local AI / agent workspace: NEVER COMMIT
+/AI_WORKSPACE/
+/.ai-workspace/
+/.agent/
+/.agents-local/
+/prompts-local/
+/agent-notes/
+/agent-transcripts/
+
+# Local machine / IDE
+/.idea/
+/.vscode/
+/.run/
+/local.properties
+*.iml
+.DS_Store
+Thumbs.db
+
+# Gradle / Android outputs
+.gradle/
+**/build/
+**/.kotlin/
+**/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Signing material and secrets
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+.env
+.env.*
+!.env.example
+
+# Local databases and user data
+*.db
+*.sqlite
+*.sqlite3
+*.wal
+*.shm
+user-data/
+profile-dumps/
+private-corpus/
+
+# Test / benchmark outputs
+test-results/
+reports/
+benchmark-results/
+*.hprof
