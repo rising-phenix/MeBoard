@@ -8,7 +8,7 @@ plugins {
 
 android {
     namespace = "dev.meboard.data"
-    compileSdk = 34
+    compileSdk = 36
 }
 
 dependencies {}

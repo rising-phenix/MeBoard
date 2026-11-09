@@ -1,6 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.9.22"
-    id("org.ktlint") version "10.3.0"
+    kotlin("jvm") version "1.8.20"
 }
 
 repositories {

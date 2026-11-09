@@ -7,4 +7,6 @@ plugins {
 group = "dev.meboard"
 version = "0.0.1-snapshot"
 
-dependencies {}
+dependencies {
+    implementation(project(":engine:api"))
+}

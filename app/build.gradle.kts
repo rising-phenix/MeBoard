@@ -2,13 +2,18 @@
 // Stub build file for M0 skeleton; production Android code is added in later milestones.
 
 plugins {
-    id("com.android.application")
+    id("com.android.application") version "8.0.0"
     id("org.jetbrains.kotlin.android")
 }
 
 android {
     namespace = "dev.meboard.app"
-    compileSdk = 34
+    compileSdk = 36
+
+    defaultConfig {
+        minSdk = 28
+        targetSdk = 36
+    }
 }
 
 dependencies {
