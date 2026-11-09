@@ -17,5 +17,11 @@
                 android:name="android.view.im"
                 android:resource="@xml/method" />
         </service>
+
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:exported="false"
+            android:label="@string/settings_title"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
     </application>
 </manifest>

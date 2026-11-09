@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme -->
+    <color name="theme_dark_background">#1E1E1E</color>
+    <color name="theme_dark_key">#3A3A3A</color>
+    <color name="theme_dark_keyPressed">#505050</color>
+    <color name="theme_dark_text">#FFFFFF</color>
+    <color name="theme_dark_keyText">#FFFFFF</color>
+    <color name="theme_dark_popup">#2A2A2A</color>
+
+    <!-- Light theme -->
+    <color name="theme_light_background">#F5F5F5</color>
+    <color name="theme_light_key">#E0E0E0</color>
+    <color name="theme_light_keyPressed">#CCCCCC</color>
+    <color name="theme_light_text">#000000</color>
+    <color name="theme_light_keyText">#000000</color>
+    <color name="theme_light_popup">#FFFFFF</color>
+
+    <!-- Graphite theme -->
+    <color name="theme_graphite_background">#2B2B2B</color>
+    <color name="theme_graphite_key">#4A4A4A</color>
+    <color name="theme_graphite_keyPressed">#606060</color>
+    <color name="theme_graphite_text">#E0E0E0</color>
+    <color name="theme_graphite_keyText">#E0E0E0</color>
+    <color name="theme_graphite_popup">#3A3A3A</color>
+</resources>

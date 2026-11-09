@@ -14,7 +14,6 @@ dependencies {
     implementation(project(":engine:learning"))
     implementation(project(":engine:prediction"))
     implementation(project(":engine:algorithms"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.2")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.10.2")

@@ -1,7 +1,7 @@
 // Engine learning module (pure Kotlin)
 
 plugins {
-    id("org.jetbrains.kotlin.jvm")
+    id("org.jetbrains.kotlin.jvm") version "1.9.22"
 }
 
 group = "dev.meboard"

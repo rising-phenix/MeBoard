@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.preference.PreferenceCategory android:title="@string/settings_title">
+        <androidx.preference.SwitchPreferenceCompat
+            android:key="learning_paused"
+            android:title="@string/settings_learning_pause"
+            android:summary="@string/settings_learning_pause_summary"
+            android:defaultValue="false" />
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory android:title="@string/settings_learning">
+        <androidx.preference.ListPreference
+            android:key="theme"
+            android:title="@string/settings_theme"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:defaultValue="dark"
+            android:summary="%s" />
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory android:title="@string/settings_privacy">
+        <androidx.preference.Preference
+            android:title="@string/settings_privacy_summary"
+            android:summary="MeBoard is offline-first. All learning data stays on your device. No network access." />
+        <androidx.preference.Preference
+            android:key="clear_learned_data"
+            android:title="@string/settings_clear_data"
+            android:summary="@string/settings_clear_data_summary" />
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

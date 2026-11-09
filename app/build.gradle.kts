@@ -2,7 +2,7 @@
 // Stub build file for M0 skeleton; production Android code is added in later milestones.
 
 plugins {
-    id("com.android.application") version "8.0.0"
+    id("com.android.application") version "8.2.0"
     id("org.jetbrains.kotlin.android")
 }
 

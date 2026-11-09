@@ -1,8 +1,7 @@
 // Data storage module (Android Room/SQLite; Android-only)
-// Stub build file for M0 skeleton; production database code is added in later milestones.
 
 plugins {
-    id("com.android.library")
+    id("com.android.library") version "8.2.0"
     id("org.jetbrains.kotlin.android")
 }
 
@@ -11,4 +10,10 @@ android {
     compileSdk = 36
 }
 
-dependencies {}
+dependencies {
+    implementation(project(":engine:api"))
+    implementation("androidx.room:room-runtime:2.6.1")
+    implementation("androidx.room:room-ktx:2.6.1")
+    kapt("androidx.room:room-compiler:2.6.1")
+    implementation("androidx.core:core-ktx:1.12.0")
+}

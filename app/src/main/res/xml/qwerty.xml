@@ -5,6 +5,7 @@
     android:verticalGap="0px"
     android:keyHeight="@dimen/key_height">
 
+    <!-- Row 1: QWERTY -->
     <Row>
         <Key android:codes="113" android:keyLabel="q" />
         <Key android:codes="119" android:keyLabel="w" />
@@ -18,6 +19,7 @@
         <Key android:codes="112" android:keyLabel="p" />
     </Row>
 
+    <!-- Row 2: ASDF -->
     <Row>
         <Key android:codes="97" android:keyLabel="a" />
         <Key android:codes="115" android:keyLabel="s" />
@@ -30,8 +32,9 @@
         <Key android:codes="108" android:keyLabel="l" />
     </Row>
 
+    <!-- Row 3: Shift, ZXCVBNM, Delete -->
     <Row>
-        <Key android:codes="231" android:keyLabel="shift" android:isRepeatable="false" />
+        <Key android:codes="231" android:keyLabel="@string/key_shift" android:isRepeatable="false" />
         <Key android:codes="122" android:keyLabel="z" />
         <Key android:codes="120" android:keyLabel="x" />
         <Key android:codes="99" android:keyLabel="c" />
@@ -39,13 +42,14 @@
         <Key android:codes="98" android:keyLabel="b" />
         <Key android:codes="110" android:keyLabel="n" />
         <Key android:codes="109" android:keyLabel="m" />
-        <Key android:codes="-5" android:keyLabel="del" android:isRepeatable="true" />
+        <Key android:codes="-5" android:keyLabel="@string/key_delete" android:isRepeatable="true" />
     </Row>
 
+    <!-- Row 4: Symbols, Space, Enter -->
     <Row>
-        <Key android:codes="-4" android:keyLabel="sym" android:isRepeatable="false" />
-        <Key android:codes="32" android:keyWidth="35%p" android:keyLabel="space" android:isRepeatable="false" />
-        <Key android:codes="-3" android:keyWidth="20%p" android:keyLabel="return" android:isRepeatable="false" />
+        <Key android:codes="-4" android:keyLabel="@string/key_symbols" android:isRepeatable="false" />
+        <Key android:codes="32" android:keyWidth="35%p" android:keyLabel="@string/key_space" android:isRepeatable="false" />
+        <Key android:codes="-3" android:keyWidth="20%p" android:keyLabel="@string/key_enter" android:isRepeatable="false" />
     </Row>
 
 </Keyboard>
